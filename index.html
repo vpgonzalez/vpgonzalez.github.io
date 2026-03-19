@@ -1,100 +1,110 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name ="viewport" content="width=device-width, initial-scale=1.0"> <!--hace que se vea bien en el celu y compu -->
-  <title> Valentina González </title>
-  <link rel ="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentina González</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-<!--todo lo visible body -->
-
 <body>
   <div class="container">
-  <header class="top-banner">
-  <h1 class="banner-name">Valentina González</h1>
-  <p class="banner-subtitle">Personal Web Page</p>
-</header>
 
-<section class="hero-section">
-  <div class="hero-text">
-    <h2 class="hero-title">Hi, I am Valentina González</h2>
-    <p class="hero-description">
-      I am a Civil Industrial Engineering student interested in technology,
-      innovation and continuous learning. I enjoy developing new skills and
-      creating projects that combine creativity, analysis and organization.
-    </p>
+    <header class="top-banner">
+      <h1 class="banner-name">Valentina González</h1>
+      <p class="banner-subtitle">Personal Web Page</p>
+    </header>
+
+    <section class="hero-section">
+      <div class="hero-text">
+        <h2 class="hero-title">Hi, I am Valentina González</h2>
+        <p class="hero-description">
+          I am a Civil Industrial Engineering student interested in technology,
+          innovation and continuous learning. I enjoy developing new skills and
+          creating projects that combine creativity, analysis and organization.
+        </p>
+      </div>
+
+      <div class="hero-image">
+        <img
+          class="profile-img"
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800"
+          alt="Foto de perfil"
+        >
+      </div>
+    </section>
+
+    <section class="info-card">
+      <h2>Datos Universitarios</h2>
+      <p><strong>Carrera:</strong> Ingeniería Civil Industrial</p>
+      <p><strong>Año de Ingreso:</strong> 2022</p>
+      <p><strong>Año Actual:</strong> 4to Año</p>
+      <p>
+        <strong>Github:</strong>
+        <a href="https://github.com/vpgonzalez" target="_blank">github.com/vpgonzalez</a>
+      </p>
+    </section>
+
+    <section class="summary-card">
+      <h2>Resumen Personal</h2>
+      <p>
+        Soy estudiante de Ingeniería Civil con interés en la tecnología, la innovación
+        y el aprendizaje constante.
+      </p>
+    </section>
+
+    <section class="skills-card">
+      <h2>Skills</h2>
+      <table class="skills-table">
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Basic</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Basic</td>
+        </tr>
+        <tr>
+          <td>Git</td>
+          <td>Basic</td>
+        </tr>
+        <tr>
+          <td>Excel</td>
+          <td>Basic</td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td>Advanced</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="links-card">
+      <h2>External Link</h2>
+      <p>
+        Sitio de mi pyme:
+        <a href="https://www.instagram.com/pinnk.ladiess?igsh=OXN3dTFlaW5ybnEw&utm_source=qr" target="_blank">Instagram</a>
+      </p>
+    </section>
+
+    <section class="interactive-card">
+      <h2>Interactive Section</h2>
+      <p>Escribe algo aquí:</p>
+      <input type="text" id="userText" class="text-input" placeholder="Write something">
+      <button class="btn" onclick="changeMessage()">Actualizar</button>
+      <p id="dynamicMessage" class="dynamic-message">mensaje</p>
+    </section>
+
   </div>
 
-  <div class="hero-image">
-    <img class="profile-img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800" alt="Foto de perfil">
-  </div>
-</section>
-
-<section class="info-card">
-  <h2>Datos Universitarios</h2>
-  <p><strong>Carrera:</strong> Ingeniería Civil Industrial</p>
-  <p><strong>Año de Ingreso:</strong> 2022</p>
-  <p><strong>Año Actual:</strong> 4to Año</p>
-  <p><strong>Github:</strong> <a href="https://github.com/vpgonzalez" target="_blank">github.com/vpgonzalez</a></p>
-</section>
-  <section class = "summary-card">
-    <h2> Resumen Personal </h2>
-    <p>
-      Soy estudiante de Ingenrria...
-    </p>
-  </section>
-  <section class = "skills-card">
-    <h2> Skills</h2>
-    <table class="skills-table">
-      <tr>
-        <th> Skill</th> <!--Encabezado -->
-        <th> Level</th>
-      </tr>
-      <tr>
-        <td> HTML </td> <!--celda normal -->
-        <td> Basic </td>
-      </tr>
-      <tr>
-        <td> CSS </td>
-        <td> Basic </td>
-      </tr>
-      <tr>
-        <td> Git </td>
-        <td> Basic </td>
-      </tr>       
-      <tr>
-        <td> Excel </td>
-        <td> Basic </td>
-      </tr> 
-      <tr>
-        <td> English </td>
-        <td> Advanced </td>
-      </tr>
-    </table>
-  </section>
-  <section class="links-card">
-    <h2>External Link </h2>
-    <p>
-      Sitio de mi pyme:
-      <a href = "https://www.instagram.com/pinnk.ladiess?igsh=OXN3dTFlaW5ybnEw&utm_source=qr" target ="_blank">Instagram</a>
-    </p>
-  </section>
-  <section class = "interactive-card">
-    <h2> Interactive Section </h2>
-    <p> kdjdks </p>
-    <input type = "text" id="userText" class = "text-input" placeholder = "jajss">
-    <button class = "btn" onclick="changeMessage()"> Actualizar </button>
-    <p id = "dynamicMessage" class = "dynamic-message"> mensahe </p>
-  </section>
-  </div>
   <script>
-    function changeMessage() { 
-      const text = document.getElementById ("userText").value; document.getElementById("dynamicMessage").textContent = text;
+    function changeMessage() {
+      const text = document.getElementById("userText").value;
+      document.getElementById("dynamicMessage").textContent = text;
     }
   </script>
 </body>
 </html>
-      
-
-  
