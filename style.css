@@ -22,6 +22,7 @@ body {
 }
 
 .banner-name {
+  font-style: italic;
   margin: 0;
   font-size: 48px;
   font-weight: 700;
