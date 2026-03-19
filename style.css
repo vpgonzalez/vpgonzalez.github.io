@@ -1,5 +1,5 @@
 body {
-  font-family: Times New Roman, sans-serif;
+  font-family: "Times New Roman", serif;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -13,11 +13,11 @@ body {
   padding: 0;
 }
 
+/* Banner superior */
 .top-banner {
   background-color: #FCD9F6;
   text-align: center;
   padding: 38px 20px 34px 20px;
-  margin-bottom: 0;
 }
 
 .banner-name {
@@ -25,7 +25,7 @@ body {
   font-size: 50px;
   font-weight: 700;
   color: #222;
-  font-family: "Cookie";
+  font-family: "Cookie", cursive;
 }
 
 .banner-subtitle {
@@ -34,6 +34,7 @@ body {
   color: #666;
 }
 
+/* Sección principal */
 .hero-section {
   display: flex;
   align-items: center;
@@ -53,7 +54,7 @@ body {
   margin-bottom: 18px;
   color: #222;
   font-weight: 700;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .hero-description {
@@ -77,21 +78,79 @@ body {
   border-radius: 0;
 }
 
-.info-card,
-.summary-card,
-.skills-card,
-.links-card,
-.interactive-card {
-  margin-top: 40px;
-}
-
+/* Títulos generales */
 h2 {
   color: #1f2937;
 }
 
-.skills-table{
-  width: 600px;
-  margin:20px auto;
+/* Bloques rosados superiores */
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.bottom-section .links-card,
+.bottom-section .interactive-card {
+  width: 48%;
+  background: #FFE5FC;
+  padding: 20px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+/* Botón */
+.btn {
+  padding: 10px 16px;
+  border: none;
+  background-color: #FF00B7;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #e000a3;
+}
+
+/* Bloques de info y skills */
+.info-skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.info-card,
+.skills-card {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info-card {
+  background: #FFE5FC;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.info-card h2 {
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  margin: 8px 0;
+}
+
+/* Tabla */
+.skills-table {
+  width: 100%;
+  margin: 20px auto 0 auto;
+  border-collapse: collapse;
 }
 
 th {
@@ -105,10 +164,15 @@ td {
   border: 1px solid #ddd;
 }
 
-tr:nth-child(even) {
-  background-color: ##FFE5FC;
+tr:nth-child(odd) {
+  background-color: white;
 }
 
+tr:nth-child(even) {
+  background-color: #FFE5FC;
+}
+
+/* Links */
 a {
   color: #2563eb;
   text-decoration: none;
@@ -118,58 +182,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.text-input {
-  padding: 10px;
-  width: 60%;
-  max-width: 300px;
-  border: 1px solid #bbb;
-  border-radius: 8px;
-}
-
-.btn {
-  padding: 10px 16px;
-  border: none;
-  background-color: #FF00B7;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-left: 10px;
-}
-
-.dynamic-message {
-  margin-top: 15px;
-  font-weight: 600;
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 0 20px 30px 20px;
-  }
-
-  .banner-name {
-    font-size: 32px;
-  }
-
-  .hero-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-description {
-    max-width: 100%;
-  }
-
-  .text-input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  .btn {
-    margin-left: 0;
-    width: 100%;
-  }
-}
-
+/* Business page */
 .business-section {
   padding: 40px 70px;
 }
@@ -196,53 +209,75 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.bottom-section {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  margin-top: 40px;
-}
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px 24px 16px;
+  }
 
-.bottom-section .links-card,
-.bottom-section .interactive-card {
-  width: 48%;
-  background: #FFE5FC;
-  padding: 20px;
-  border-radius: 12px;
-  box-sizing: border-box;
-  margin-top: 0;
-}
+  .top-banner {
+    padding: 24px 16px;
+  }
 
-.info-card {
-  background: #FFE5FC;
-  padding: 25px;
-  border-radius: 16px;
-  max-width: 600px;
-  margin: 40px auto;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-}
+  .banner-name {
+    font-size: 36px;
+  }
 
-.info-card h2 {
-  text-align: center;
-  margin-bottom: 15px;
-}
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 30px 20px;
+  }
 
-.info-card p {
-  margin: 8px 0;
-}
+  .hero-text {
+    max-width: 100%;
+  }
 
-.info-skills-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 40px;
-  align-items: flex-start;
-}
+  .hero-description {
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 1.6;
+  }
 
-.info-card,
-.skills-card {
-  width: 40%;
-  margin: 0 auto;
-  text-align: center;
+  .profile-img {
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom-section .links-card,
+  .bottom-section .interactive-card {
+    width: 100%;
+  }
+
+  .info-card,
+  .skills-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .skills-table {
+    width: 100%;
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  th,
+  td {
+    padding: 10px 8px;
+    word-break: break-word;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 220px;
+    margin: 12px auto 0 auto;
+    display: block;
+  }
 }
