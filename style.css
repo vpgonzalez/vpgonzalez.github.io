@@ -13,7 +13,6 @@ body {
   padding: 0;
 }
 
-/* Banner superior */
 .top-banner {
   background-color: #FCD9F6;
   text-align: center;
@@ -34,7 +33,6 @@ body {
   color: #666;
 }
 
-/* Sección principal */
 .hero-section {
   display: flex;
   align-items: center;
@@ -78,12 +76,10 @@ body {
   border-radius: 0;
 }
 
-/* Títulos generales */
 h2 {
   color: #1f2937;
 }
 
-/* Bloques rosados superiores */
 .bottom-section {
   display: flex;
   justify-content: space-between;
@@ -100,7 +96,6 @@ h2 {
   box-sizing: border-box;
 }
 
-/* Botón */
 .btn {
   padding: 10px 16px;
   border: none;
@@ -115,7 +110,6 @@ h2 {
   background-color: #e000a3;
 }
 
-/* Bloques de info y skills */
 .info-skills-container {
   display: flex;
   flex-direction: column;
@@ -146,7 +140,6 @@ h2 {
   margin: 8px 0;
 }
 
-/* Tabla */
 .skills-table {
   width: 100%;
   margin: 20px auto 0 auto;
@@ -172,7 +165,6 @@ tr:nth-child(even) {
   background-color: #FFE5FC;
 }
 
-/* Links */
 a {
   color: #2563eb;
   text-decoration: none;
@@ -182,7 +174,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Business page */
 .business-section {
   padding: 40px 70px;
 }
@@ -209,10 +200,9 @@ a:hover {
   margin-bottom: 12px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .container {
-    padding: 0 16px 24px 16px;
+    padding: 0 16px 14px 16px;
   }
 
   .top-banner {
