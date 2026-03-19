@@ -199,3 +199,17 @@ a:hover {
   border-radius: 8px;
   margin-bottom: 12px;
 }
+
+.bottom-section {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.links-card,
+.interactive-card {
+  flex: 1;
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 12px;
+}
