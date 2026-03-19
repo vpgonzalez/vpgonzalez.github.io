@@ -23,10 +23,10 @@ body {
 
 .banner-name {
   margin: 0;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
   color: #222;
-  font-family: "Cookie", cursive;
+  font-family: "Cookie";
 }
 
 .banner-subtitle {
