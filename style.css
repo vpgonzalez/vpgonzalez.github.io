@@ -202,7 +202,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .container {
-    padding: 0 16px 14px 16px;
+    padding: 0 16px 24px 16px;
   }
 
   .top-banner {
