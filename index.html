@@ -7,4 +7,86 @@
   <link rel ="stylesheet" href="style.css">
 </head>
 
+<!--todo lo visible body -->
+
+<body>
+  <div class="container">
+    <header class = "header">
+      <h1 class = "title"> Valentina González </h1>
+      <p class = "subtitle"> Personal Web Page </p>
+    </header>
+
+<section class = "profile-section">
+  <div class ="photo-card">
+    <img class ="profile-img" src="..." alt="Foto de perfil">
+  </div>
+
+  <div class = "info-card">
+    <h2> Datos Universitarios </h2>
+    <p><strong> Carrera: </strong> Ingeniería Civil Industrial </p> <!--strong deja en negrita -->
+    <p><strong> Año de Ingreso: </strong> 2022 </p>
+    <p><strong> Año Actual: </strong> 4to Año </p>
+    <p><strong>Github: </strong> <a href="https://github.com/vpgonzalez" target = "_blank"> github.com/vpgonzalez</a>
+    </p>
+  </div>
+</section>
+  <section class = "summary-card">
+    <h2> Resumen Personal </h2>
+    <p>
+      Soy estudiante de Ingenrria...
+    </p>
+  </section>
+  <section class = "skills-card">
+    <h2> Skills</h2>
+    <table class="skills-table">
+      <tr>
+        <th> Skill</th> <!--Encabezado -->
+        <th> Level</th>
+      </tr>
+      <tr>
+        <td> HTML </td> <!--celda normal -->
+        <td> Basic </td>
+      </tr>
+      <tr>
+        <td> CSS </td>
+        <td> Basic </td>
+      </tr>
+      <tr>
+        <td> Git </td>
+        <td> Basic </td>
+      </tr>       
+      <tr>
+        <td> Excel </td>
+        <td> Basic </td>
+      </tr> 
+      <tr>
+        <td> English </td>
+        <td> Advanced </td>
+      </tr>
+    </table>
+  </section>
+  <section class="links-card">
+    <h2>External Link </h2>
+    <p>
+      Sitio de mi pyme:
+      <a href = "https://www.instagram.com/pinnk.ladiess?igsh=OXN3dTFlaW5ybnEw&utm_source=qr" target ="_blank">Instagram</a>
+    </p>
+  </section>
+  <section class = "interactive-card">
+    <h2> Interactive Section </h2>
+    <p> kdjdks </p>
+    <input type = "text" id="UserText" class = "text-input" placeholder = "jajss">
+    <button class = "btn" onclick="changeMessage()"> Actualizar </button>
+    <p id = "dynmicMessage" class = "dynamic-message"> mensahe </p>
+  </section>
+  </div>
+  <script>
+    function changeMessage() { 
+      const text = document.getElementById ("userText).value; document.getElementById("dynamicMessage").textContent = text;
+    }
+  </script>
+</body>
+</html>
+      
+
   
