@@ -271,3 +271,14 @@ a:hover {
     display: block;
   }
 }
+
+.skills-card {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+}
