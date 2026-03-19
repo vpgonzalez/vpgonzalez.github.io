@@ -209,7 +209,7 @@ a:hover {
 
 .bottom-section .links-card,
 .bottom-section .interactive-card {
-  width: 48%;
+  width: 100%;
   background: #f8fafc;
   padding: 20px;
   border-radius: 12px;
