@@ -91,11 +91,9 @@ h2 {
   color: #1f2937;
 }
 
-.skills-table,
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
+.skills-table{
+  width: 600 px;
+  margin:20px auto;
 }
 
 th {
