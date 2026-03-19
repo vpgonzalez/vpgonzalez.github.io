@@ -22,12 +22,11 @@ body {
 }
 
 .banner-name {
-  font-style: cookie;
   margin: 0;
   font-size: 48px;
   font-weight: 700;
   color: #222;
-  font-family: Arial, sans-serif;
+  font-family: Cookie, sans-serif;
 }
 
 .banner-subtitle {
