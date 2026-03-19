@@ -202,14 +202,17 @@ a:hover {
 
 .bottom-section {
   display: flex;
+  justify-content: space-between;
   gap: 30px;
   margin-top: 40px;
 }
 
-.links-card,
-.interactive-card {
-  flex: 1;
+.bottom-section .links-card,
+.bottom-section .interactive-card {
+  width: 48%;
   background: #f8fafc;
   padding: 20px;
   border-radius: 12px;
+  box-sizing: border-box;
+  margin-top: 0;
 }
