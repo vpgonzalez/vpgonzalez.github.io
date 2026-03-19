@@ -13,7 +13,6 @@ body {
   padding: 0;
 }
 
-/* Huincha superior */
 .top-banner {
   background-color: #FCD9F6;
   text-align: center;
@@ -35,7 +34,6 @@ body {
   color: #666;
 }
 
-/* Sección principal */
 .hero-section {
   display: flex;
   align-items: center;
@@ -78,7 +76,6 @@ body {
   border-radius: 0;
 }
 
-/* Bloques inferiores */
 .info-card,
 .summary-card,
 .skills-card,
@@ -97,7 +94,7 @@ h2 {
 }
 
 th {
-  background-color: #1e3a8a;
+  background-color: #FF00B7;
   color: white;
   padding: 10px;
 }
@@ -108,7 +105,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #f7f7f7;
+  background-color: ##FFE5FC;
 }
 
 a {
@@ -131,7 +128,7 @@ a:hover {
 .btn {
   padding: 10px 16px;
   border: none;
-  background-color: #FF00E0;
+  background-color: #FF00B7;
   color: white;
   border-radius: 8px;
   cursor: pointer;
