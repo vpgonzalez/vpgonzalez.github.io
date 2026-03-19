@@ -14,10 +14,13 @@ body{
   box-shadow: 0 8px 20px rgba(0,0,0,1);
 }
 
+h1{
+  font-style: italic;
+}
+
 .title{
   text-align:center;
   color: #1E3A8A;
-  font-style: italic;
 }
 
 h2 {
