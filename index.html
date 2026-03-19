@@ -57,14 +57,6 @@
       </p>
     </section>
 
-    <section class="summary-card">
-      <h2>Resumen Personal</h2>
-      <p>
-        Soy estudiante de Ingeniería Civil con interés en la tecnología, la innovación
-        y el aprendizaje constante.
-      </p>
-    </section>
-
     <section class="skills-card">
       <h2>Skills</h2>
       <table class="skills-table">
@@ -105,18 +97,16 @@
 
     <section class="interactive-card">
       <h2>Interactive Section</h2>
-      <p>Escribe algo aquí:</p>
-      <input type="text" id="userText" class="text-input" placeholder="Write something">
-      <button class="btn" onclick="changeMessage()">Actualizar</button>
-      <p id="dynamicMessage" class="dynamic-message">mensaje</p>
+      <p>Press here if you want to know more about my businesses.</p>
+      <button class="btn" onclick="openBusinessPage()">Learn more</button>
     </section>
 
   </div>
 
   <script>
-    function changeMessage() {
-      const text = document.getElementById("userText").value;
-      document.getElementById("dynamicMessage").textContent = text;
+    function openBusinessPage() {
+      window.open("business.html", "_blank");
+     
     }
   </script>
 </body>
