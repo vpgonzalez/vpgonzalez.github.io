@@ -89,7 +89,7 @@ h2 {
 }
 
 .skills-table{
-  width: 600 px;
+  width: 600px;
   margin:20px auto;
 }
 
@@ -241,6 +241,7 @@ a:hover {
 
 .info-card,
 .skills-card {
-  width: 45%;
-  text-align:center;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
 }
