@@ -235,6 +235,7 @@ a:hover {
 
 .info-skills-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 40px;
   margin-top: 40px;
@@ -244,4 +245,5 @@ a:hover {
 .info-card,
 .skills-card {
   width: 45%;
+  text-align:center;
 }
